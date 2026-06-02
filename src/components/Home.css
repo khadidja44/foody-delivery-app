@@ -1,0 +1,255 @@
+.numbers{
+    background-color: #a82d49;;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden; 
+    text-align: center;
+    
+}
+.numbers .row{
+    margin: 10px 0px;
+}
+
+.numbers h2{
+    color: #fff;
+    font-size: 40px;
+    margin: 0 0 20px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+
+}
+.numbers h6{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+}
+
+.pride , .ingredients  {
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+.pride img, .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pride h2, .ingredients h2{
+    
+        color: #43121d;
+        margin: 10px 0px;
+        font-size: 50px;
+        letter-spacing: 0;
+        font-family: 'Tajawal', sans-serif;
+        width: 80%;
+        font-weight: bold;
+
+}
+
+.pride p , .ingredients p ,.paralex p, .blogs p{
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    
+    
+    display: block;
+   
+}
+
+.pride button, .ingredients button, .blogs .box button{
+    
+    width: 200px;
+    display: block;
+    height: 40px;
+    background-color: #ab3550;
+    border: 3px solid #ab3550;
+    box-sizing: border-box;
+
+    font-weight: bold;
+    transition: .2s ease;
+
+}
+.pride button:hover ,.ingredients button:hover, .blogs .box button:hover {
+    background-color: #fff;
+}
+
+.pride button a, .ingredients button a, .blogs .box button a
+    {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+
+ .pride button:hover a , .ingredients button:hover a, .blogs .box button:hover a{
+    
+        color: #a82d49 !important;
+        
+    }
+
+    .ingredients  {
+        text-align: left;
+    }
+    .ingredients ul li {
+        list-style: none;
+        
+        color: rgb(95, 99, 104);
+        margin-top: 10px;
+        list-style-type: square;
+    }
+
+    .paralex{
+       background-image: url('./../assets/1.jpg');
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       max-width:  100%;
+       height: 500px;
+    
+       padding: 30px 0px;
+       text-align: center;
+       margin-top: 0px;
+
+    }
+    .paralex h1, .blogs h1{
+        font-family:'Tajawal';
+        font-weight: bold;
+        color: #a82d49;
+        padding: 40px;
+        width: 100%;
+
+    }
+    .paralex .row{
+        margin: 50px 0px;
+    }
+    .paralex a {
+        color: hsl(346, 72%, 27%);
+        font-size: 20px;
+        margin: 20px 0px;
+        text-decoration: none !important;
+    }
+    
+    .blogs .row:first-child{
+        text-align: center;
+        margin: 25px 0px;
+    }
+    
+    .blogs .box {
+       width:100%;
+       max-width: 100%;
+       height: auto;
+       overflow: hidden;
+       border: 1px solid #f6f6ff;
+       box-sizing: border-box;
+       margin: 1px;
+       border-radius:5px;
+       text-align: left;
+       
+
+    }
+
+
+   .blogs .row img{
+    max-width: 100%;
+   } 
+
+   .blogs .box h5{
+       color: #77132b;
+       font-size: 25px;
+       margin: 10px 0px; /*10px top botton 0 left right*/
+   }
+   .blogs .box span{
+       display: block;
+       color:#444;
+       font-family: 'Tajawal';
+       font-size: 16px;
+       margin: 10px 0px;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+    
+   }
+
+   .blogs .box h6{
+    color: #a00f31;
+    font-size: 25px;
+    font-family: 'Tajawal';
+    margin: 10px 0px;
+}
+.slider{
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px 0px;
+
+}
+
+.slider img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 20px 0px;
+    margin-bottom: 250px;
+   
+}
+
+.slider .carousel-caption p{
+    font-size: 21px;
+    line-height: 33px;
+    font-weight: 300;
+    color: #111;
+    padding: 0 21% 20px;
+    letter-spacing: 0;
+
+   
+}
+.slider .carousel{
+    background-color: #fff;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 16px;
+    margin: 40px 0;
+
+}
+.slider .carousel-caption span{
+    color: #da4064;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 17px;
+
+
+}
+
+.slider .carousel-indicators button{
+    background-color: rgb(37, 35, 35);
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    
+}
+
+.slider h2{
+    color: #fff;
+    font-family: "Tajawal";
+    font-weight: bolder;
+    
+}
+
+.faq h4{
+    text-align: left;
+}
